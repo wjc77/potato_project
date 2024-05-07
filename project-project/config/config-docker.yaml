@@ -1,0 +1,29 @@
+server:
+  name: "menu-user"
+  addr: "0.0.0.0:8080"
+zap:
+  debugFileName: "C:\\Users\\86193\\Code_Projects\\GoLandProjects\\ms_project3\\logs\\debug\\project-debug.log"
+  infoFileName: "C:\\Users\\86193\\Code_Projects\\GoLandProjects\\ms_project3\\logs\\info\\project-info.log"
+  warnFileName: "C:\\Users\\86193\\Code_Projects\\GoLandProjects\\ms_project3\\logs\\error\\project-error.log"
+  maxSize: 500,
+  maxAge: 28,
+  MaxBackups: 3
+redis:
+  host: "redis6"
+  port: 6379
+  password: ""
+  db: 0
+grpc:
+  addr: "0.0.0.0:8881"
+  name: "user"
+  version: "1.0.0"
+  weight: 2
+etcd:
+  addrs:
+    - "etcd3:2379"
+mysql:
+  username: root
+  password: wang
+  host: 127.0.0.1
+  port: 3306
+  db: pear_project

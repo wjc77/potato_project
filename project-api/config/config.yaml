@@ -1,0 +1,13 @@
+server:
+  name: "menu-api"
+  addr: "127.0.0.1:80"
+zap:
+  debugFileName: "C:\\Users\\86193\\Code_Projects\\GoLandProjects\\ms_project3\\logs\\debug\\project-debug.log"
+  infoFileName: "C:\\Users\\86193\\Code_Projects\\GoLandProjects\\ms_project3\\logs\\info\\project-info.log"
+  warnFileName: "C:\\Users\\86193\\Code_Projects\\GoLandProjects\\ms_project3\\logs\\error\\project-error.log"
+  maxSize: 500,
+  maxAge: 28,
+  MaxBackups: 3
+etcd:
+  addrs:
+    - "127.0.0.1:2379"
